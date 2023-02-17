@@ -1,213 +1,0 @@
-# harana-decode-fastsvc --config conf/fastsvc.yaml --dumpdir dump/evaluation/norm --srcf0stats dump/evaluation/f0_stats --trgf0stats dump/train_singing/f0_stats --stats dump/train_singing/stats.joblib --checkpoint exp/train_singing_baseline.singing/checkpoint-600000steps.pkl --spk_emb_path dump/train_singing/embs/spk_embs.h5 --outdir exp/train_singing_baseline.singing/wav/checkpoint-600000steps/evaluation 
-# Started at 2023年  2月 11日 土曜日 03:08:01 JST
-#
-2023-02-11 03:08:04,314 (decode_fastsvc:268) INFO: The number of features to be decoded = 48.
-2023-02-11 03:08:04,315 (features:201) INFO: Use ['sine'] for generator input signals.
-2023-02-11 03:08:05,010 (decode_fastsvc:285) INFO: Loaded model parameters from exp/train_singing_baseline.singing/checkpoint-600000steps.pkl.
-2023-02-11 03:08:06,145 (decode_fastsvc:296) INFO: converting source to speaker CDM
-2023-02-11 03:08:06,148 (decode_fastsvc:301) INFO: <class 'numpy.ndarray'>
-[decode]:   0%|          | 0/48 [00:00<?, ?it/s]2023-02-11 03:08:06,188 (decode_fastsvc:313) INFO: processing SF_30001
-[decode]:   0%|          | 0/48 [00:01<?, ?it/s, RTF=0.308][decode]:   2%|▏         | 1/48 [00:01<01:17,  1.65s/it, RTF=0.308]2023-02-11 03:08:07,835 (decode_fastsvc:313) INFO: processing SF_30002
-[decode]:   2%|▏         | 1/48 [00:01<01:17,  1.65s/it, RTF=0.00443]2023-02-11 03:08:07,876 (decode_fastsvc:313) INFO: processing SF_30003
-[decode]:   2%|▏         | 1/48 [00:01<01:17,  1.65s/it, RTF=0.00497]2023-02-11 03:08:07,922 (decode_fastsvc:313) INFO: processing SF_30004
-[decode]:   2%|▏         | 1/48 [00:01<01:17,  1.65s/it, RTF=0.00347][decode]:   8%|▊         | 4/48 [00:01<00:15,  2.87it/s, RTF=0.00347]2023-02-11 03:08:07,962 (decode_fastsvc:313) INFO: processing SF_30005
-[decode]:   8%|▊         | 4/48 [00:01<00:15,  2.87it/s, RTF=0.00353]2023-02-11 03:08:08,023 (decode_fastsvc:313) INFO: processing SF_30006
-[decode]:   8%|▊         | 4/48 [00:01<00:15,  2.87it/s, RTF=0.00215][decode]:  12%|█▎        | 6/48 [00:01<00:09,  4.52it/s, RTF=0.00215]2023-02-11 03:08:08,075 (decode_fastsvc:313) INFO: processing SF_30007
-[decode]:  12%|█▎        | 6/48 [00:01<00:09,  4.52it/s, RTF=0.00429]2023-02-11 03:08:08,115 (decode_fastsvc:313) INFO: processing SF_30008
-[decode]:  12%|█▎        | 6/48 [00:01<00:09,  4.52it/s, RTF=0.00568]2023-02-11 03:08:08,155 (decode_fastsvc:313) INFO: processing SF_30009
-[decode]:  12%|█▎        | 6/48 [00:02<00:09,  4.52it/s, RTF=0.00557][decode]:  19%|█▉        | 9/48 [00:02<00:05,  7.49it/s, RTF=0.00557]2023-02-11 03:08:08,193 (decode_fastsvc:313) INFO: processing SF_30010
-[decode]:  19%|█▉        | 9/48 [00:02<00:05,  7.49it/s, RTF=0.00585]2023-02-11 03:08:08,237 (decode_fastsvc:313) INFO: processing SF_30011
-[decode]:  19%|█▉        | 9/48 [00:02<00:05,  7.49it/s, RTF=0.00539]2023-02-11 03:08:08,282 (decode_fastsvc:313) INFO: processing SF_30012
-[decode]:  19%|█▉        | 9/48 [00:02<00:05,  7.49it/s, RTF=0.00531][decode]:  25%|██▌       | 12/48 [00:02<00:03, 10.38it/s, RTF=0.00531]2023-02-11 03:08:08,330 (decode_fastsvc:313) INFO: processing SF_30013
-[decode]:  25%|██▌       | 12/48 [00:02<00:03, 10.38it/s, RTF=0.0033] 2023-02-11 03:08:08,380 (decode_fastsvc:313) INFO: processing SF_30014
-[decode]:  25%|██▌       | 12/48 [00:02<00:03, 10.38it/s, RTF=0.00376]2023-02-11 03:08:08,430 (decode_fastsvc:313) INFO: processing SF_30015
-[decode]:  25%|██▌       | 12/48 [00:02<00:03, 10.38it/s, RTF=0.00346][decode]:  31%|███▏      | 15/48 [00:02<00:02, 12.64it/s, RTF=0.00346]2023-02-11 03:08:08,476 (decode_fastsvc:313) INFO: processing SF_30016
-[decode]:  31%|███▏      | 15/48 [00:02<00:02, 12.64it/s, RTF=0.00323]2023-02-11 03:08:08,526 (decode_fastsvc:313) INFO: processing SF_30017
-[decode]:  31%|███▏      | 15/48 [00:02<00:02, 12.64it/s, RTF=0.00354]2023-02-11 03:08:08,571 (decode_fastsvc:313) INFO: processing SF_30018
-[decode]:  31%|███▏      | 15/48 [00:02<00:02, 12.64it/s, RTF=0.00405][decode]:  38%|███▊      | 18/48 [00:02<00:02, 14.66it/s, RTF=0.00405]2023-02-11 03:08:08,613 (decode_fastsvc:313) INFO: processing SF_30019
-[decode]:  38%|███▊      | 18/48 [00:02<00:02, 14.66it/s, RTF=0.00365]2023-02-11 03:08:08,674 (decode_fastsvc:313) INFO: processing SF_30020
-[decode]:  38%|███▊      | 18/48 [00:02<00:02, 14.66it/s, RTF=0.00361]2023-02-11 03:08:08,731 (decode_fastsvc:313) INFO: processing SF_30021
-[decode]:  38%|███▊      | 18/48 [00:02<00:02, 14.66it/s, RTF=0.00381][decode]:  44%|████▍     | 21/48 [00:02<00:01, 15.61it/s, RTF=0.00381]2023-02-11 03:08:08,779 (decode_fastsvc:313) INFO: processing SF_30022
-[decode]:  44%|████▍     | 21/48 [00:02<00:01, 15.61it/s, RTF=0.00539]2023-02-11 03:08:08,830 (decode_fastsvc:313) INFO: processing SF_30023
-[decode]:  44%|████▍     | 21/48 [00:02<00:01, 15.61it/s, RTF=0.00277]2023-02-11 03:08:08,883 (decode_fastsvc:313) INFO: processing SF_30024
-[decode]:  44%|████▍     | 21/48 [00:02<00:01, 15.61it/s, RTF=0.00408][decode]:  50%|█████     | 24/48 [00:02<00:01, 16.46it/s, RTF=0.00408]2023-02-11 03:08:08,943 (decode_fastsvc:313) INFO: processing SM_30001
-[decode]:  50%|█████     | 24/48 [00:02<00:01, 16.46it/s, RTF=0.00456]2023-02-11 03:08:08,995 (decode_fastsvc:313) INFO: processing SM_30002
-[decode]:  50%|█████     | 24/48 [00:02<00:01, 16.46it/s, RTF=0.00376]2023-02-11 03:08:09,040 (decode_fastsvc:313) INFO: processing SM_30003
-[decode]:  50%|█████     | 24/48 [00:02<00:01, 16.46it/s, RTF=0.00562][decode]:  56%|█████▋    | 27/48 [00:02<00:01, 17.61it/s, RTF=0.00562]2023-02-11 03:08:09,088 (decode_fastsvc:313) INFO: processing SM_30004
-[decode]:  56%|█████▋    | 27/48 [00:02<00:01, 17.61it/s, RTF=0.00379]2023-02-11 03:08:09,139 (decode_fastsvc:313) INFO: processing SM_30005
-[decode]:  56%|█████▋    | 27/48 [00:02<00:01, 17.61it/s, RTF=0.00351][decode]:  60%|██████    | 29/48 [00:03<00:01, 18.01it/s, RTF=0.00351]2023-02-11 03:08:09,193 (decode_fastsvc:313) INFO: processing SM_30006
-[decode]:  60%|██████    | 29/48 [00:03<00:01, 18.01it/s, RTF=0.00218]2023-02-11 03:08:09,254 (decode_fastsvc:313) INFO: processing SM_30007
-[decode]:  60%|██████    | 29/48 [00:03<00:01, 18.01it/s, RTF=0.00414][decode]:  65%|██████▍   | 31/48 [00:03<00:00, 17.97it/s, RTF=0.00414]2023-02-11 03:08:09,321 (decode_fastsvc:313) INFO: processing SM_30008
-[decode]:  65%|██████▍   | 31/48 [00:03<00:00, 17.97it/s, RTF=0.00535]2023-02-11 03:08:09,358 (decode_fastsvc:313) INFO: processing SM_30009
-[decode]:  65%|██████▍   | 31/48 [00:03<00:00, 17.97it/s, RTF=0.0045] [decode]:  69%|██████▉   | 33/48 [00:03<00:00, 18.28it/s, RTF=0.0045]2023-02-11 03:08:09,404 (decode_fastsvc:313) INFO: processing SM_30010
-[decode]:  69%|██████▉   | 33/48 [00:03<00:00, 18.28it/s, RTF=0.00653]2023-02-11 03:08:09,443 (decode_fastsvc:313) INFO: processing SM_30011
-[decode]:  69%|██████▉   | 33/48 [00:03<00:00, 18.28it/s, RTF=0.00541]2023-02-11 03:08:09,490 (decode_fastsvc:313) INFO: processing SM_30012
-[decode]:  69%|██████▉   | 33/48 [00:03<00:00, 18.28it/s, RTF=0.00608][decode]:  75%|███████▌  | 36/48 [00:03<00:00, 19.86it/s, RTF=0.00608]2023-02-11 03:08:09,544 (decode_fastsvc:313) INFO: processing SM_30013
-[decode]:  75%|███████▌  | 36/48 [00:03<00:00, 19.86it/s, RTF=0.00337]2023-02-11 03:08:09,589 (decode_fastsvc:313) INFO: processing SM_30014
-[decode]:  75%|███████▌  | 36/48 [00:03<00:00, 19.86it/s, RTF=0.00424]2023-02-11 03:08:09,637 (decode_fastsvc:313) INFO: processing SM_30015
-[decode]:  75%|███████▌  | 36/48 [00:03<00:00, 19.86it/s, RTF=0.00376][decode]:  81%|████████▏ | 39/48 [00:03<00:00, 19.65it/s, RTF=0.00376]2023-02-11 03:08:09,703 (decode_fastsvc:313) INFO: processing SM_30016
-[decode]:  81%|████████▏ | 39/48 [00:03<00:00, 19.65it/s, RTF=0.00366]2023-02-11 03:08:09,766 (decode_fastsvc:313) INFO: processing SM_30017
-[decode]:  81%|████████▏ | 39/48 [00:03<00:00, 19.65it/s, RTF=0.0035] 2023-02-11 03:08:09,813 (decode_fastsvc:313) INFO: processing SM_30018
-[decode]:  81%|████████▏ | 39/48 [00:03<00:00, 19.65it/s, RTF=0.00406][decode]:  88%|████████▊ | 42/48 [00:03<00:00, 19.02it/s, RTF=0.00406]2023-02-11 03:08:09,856 (decode_fastsvc:313) INFO: processing SM_30019
-[decode]:  88%|████████▊ | 42/48 [00:03<00:00, 19.02it/s, RTF=0.00345]2023-02-11 03:08:09,900 (decode_fastsvc:313) INFO: processing SM_30020
-[decode]:  88%|████████▊ | 42/48 [00:03<00:00, 19.02it/s, RTF=0.00355]2023-02-11 03:08:09,955 (decode_fastsvc:313) INFO: processing SM_30021
-[decode]:  88%|████████▊ | 42/48 [00:03<00:00, 19.02it/s, RTF=0.00358][decode]:  94%|█████████▍| 45/48 [00:03<00:00, 19.60it/s, RTF=0.00358]2023-02-11 03:08:09,998 (decode_fastsvc:313) INFO: processing SM_30022
-[decode]:  94%|█████████▍| 45/48 [00:03<00:00, 19.60it/s, RTF=0.00534]2023-02-11 03:08:10,039 (decode_fastsvc:313) INFO: processing SM_30023
-[decode]:  94%|█████████▍| 45/48 [00:03<00:00, 19.60it/s, RTF=0.00279]2023-02-11 03:08:10,091 (decode_fastsvc:313) INFO: processing SM_30024
-[decode]:  94%|█████████▍| 45/48 [00:03<00:00, 19.60it/s, RTF=0.00286][decode]: 100%|██████████| 48/48 [00:03<00:00, 20.39it/s, RTF=0.00286][decode]: 100%|██████████| 48/48 [00:03<00:00, 12.13it/s, RTF=0.00286]
-2023-02-11 03:08:10,121 (decode_fastsvc:296) INFO: converting source to speaker CDF
-2023-02-11 03:08:10,126 (decode_fastsvc:301) INFO: <class 'numpy.ndarray'>
-[decode]:   0%|          | 0/48 [00:00<?, ?it/s]2023-02-11 03:08:10,146 (decode_fastsvc:313) INFO: processing SF_30001
-[decode]:   0%|          | 0/48 [00:00<?, ?it/s, RTF=0.00345]2023-02-11 03:08:10,183 (decode_fastsvc:313) INFO: processing SF_30002
-[decode]:   0%|          | 0/48 [00:00<?, ?it/s, RTF=0.00336]2023-02-11 03:08:10,218 (decode_fastsvc:313) INFO: processing SF_30003
-[decode]:   0%|          | 0/48 [00:00<?, ?it/s, RTF=0.00392][decode]:   6%|▋         | 3/48 [00:00<00:01, 26.46it/s, RTF=0.00392]2023-02-11 03:08:10,257 (decode_fastsvc:313) INFO: processing SF_30004
-[decode]:   6%|▋         | 3/48 [00:00<00:01, 26.46it/s, RTF=0.00257]2023-02-11 03:08:10,298 (decode_fastsvc:313) INFO: processing SF_30005
-[decode]:   6%|▋         | 3/48 [00:00<00:01, 26.46it/s, RTF=0.00297]2023-02-11 03:08:10,335 (decode_fastsvc:313) INFO: processing SF_30006
-[decode]:   6%|▋         | 3/48 [00:00<00:01, 26.46it/s, RTF=0.00163][decode]:  12%|█▎        | 6/48 [00:00<00:01, 23.70it/s, RTF=0.00163]2023-02-11 03:08:10,393 (decode_fastsvc:313) INFO: processing SF_30007
-[decode]:  12%|█▎        | 6/48 [00:00<00:01, 23.70it/s, RTF=0.00354]2023-02-11 03:08:10,435 (decode_fastsvc:313) INFO: processing SF_30008
-[decode]:  12%|█▎        | 6/48 [00:00<00:01, 23.70it/s, RTF=0.00506]2023-02-11 03:08:10,472 (decode_fastsvc:313) INFO: processing SF_30009
-[decode]:  12%|█▎        | 6/48 [00:00<00:01, 23.70it/s, RTF=0.00521][decode]:  19%|█▉        | 9/48 [00:00<00:01, 24.35it/s, RTF=0.00521]2023-02-11 03:08:10,511 (decode_fastsvc:313) INFO: processing SF_30010
-[decode]:  19%|█▉        | 9/48 [00:00<00:01, 24.35it/s, RTF=0.00558]2023-02-11 03:08:10,550 (decode_fastsvc:313) INFO: processing SF_30011
-[decode]:  19%|█▉        | 9/48 [00:00<00:01, 24.35it/s, RTF=0.00389]2023-02-11 03:08:10,584 (decode_fastsvc:313) INFO: processing SF_30012
-[decode]:  19%|█▉        | 9/48 [00:00<00:01, 24.35it/s, RTF=0.00466][decode]:  25%|██▌       | 12/48 [00:00<00:01, 25.83it/s, RTF=0.00466]2023-02-11 03:08:10,616 (decode_fastsvc:313) INFO: processing SF_30013
-[decode]:  25%|██▌       | 12/48 [00:00<00:01, 25.83it/s, RTF=0.00253]2023-02-11 03:08:10,661 (decode_fastsvc:313) INFO: processing SF_30014
-[decode]:  25%|██▌       | 12/48 [00:00<00:01, 25.83it/s, RTF=0.0029] 2023-02-11 03:08:10,697 (decode_fastsvc:313) INFO: processing SF_30015
-[decode]:  25%|██▌       | 12/48 [00:00<00:01, 25.83it/s, RTF=0.0031][decode]:  31%|███▏      | 15/48 [00:00<00:01, 24.94it/s, RTF=0.0031]2023-02-11 03:08:10,745 (decode_fastsvc:313) INFO: processing SF_30016
-[decode]:  31%|███▏      | 15/48 [00:00<00:01, 24.94it/s, RTF=0.00272]2023-02-11 03:08:10,787 (decode_fastsvc:313) INFO: processing SF_30017
-[decode]:  31%|███▏      | 15/48 [00:00<00:01, 24.94it/s, RTF=0.00304]2023-02-11 03:08:10,826 (decode_fastsvc:313) INFO: processing SF_30018
-[decode]:  31%|███▏      | 15/48 [00:00<00:01, 24.94it/s, RTF=0.00363][decode]:  38%|███▊      | 18/48 [00:00<00:01, 25.04it/s, RTF=0.00363]2023-02-11 03:08:10,863 (decode_fastsvc:313) INFO: processing SF_30019
-[decode]:  38%|███▊      | 18/48 [00:00<00:01, 25.04it/s, RTF=0.00347]2023-02-11 03:08:10,910 (decode_fastsvc:313) INFO: processing SF_30020
-[decode]:  38%|███▊      | 18/48 [00:00<00:01, 25.04it/s, RTF=0.00268]2023-02-11 03:08:10,945 (decode_fastsvc:313) INFO: processing SF_30021
-[decode]:  38%|███▊      | 18/48 [00:00<00:01, 25.04it/s, RTF=0.00315][decode]:  44%|████▍     | 21/48 [00:00<00:01, 24.22it/s, RTF=0.00315]2023-02-11 03:08:10,995 (decode_fastsvc:313) INFO: processing SF_30022
-[decode]:  44%|████▍     | 21/48 [00:00<00:01, 24.22it/s, RTF=0.00412]2023-02-11 03:08:11,026 (decode_fastsvc:313) INFO: processing SF_30023
-[decode]:  44%|████▍     | 21/48 [00:00<00:01, 24.22it/s, RTF=0.00268]2023-02-11 03:08:11,080 (decode_fastsvc:313) INFO: processing SF_30024
-[decode]:  44%|████▍     | 21/48 [00:00<00:01, 24.22it/s, RTF=0.00286][decode]:  50%|█████     | 24/48 [00:00<00:01, 23.84it/s, RTF=0.00286]2023-02-11 03:08:11,125 (decode_fastsvc:313) INFO: processing SM_30001
-[decode]:  50%|█████     | 24/48 [00:01<00:01, 23.84it/s, RTF=0.00352]2023-02-11 03:08:11,166 (decode_fastsvc:313) INFO: processing SM_30002
-[decode]:  50%|█████     | 24/48 [00:01<00:01, 23.84it/s, RTF=0.00346]2023-02-11 03:08:11,209 (decode_fastsvc:313) INFO: processing SM_30003
-[decode]:  50%|█████     | 24/48 [00:01<00:01, 23.84it/s, RTF=0.00393][decode]:  56%|█████▋    | 27/48 [00:01<00:00, 24.30it/s, RTF=0.00393]2023-02-11 03:08:11,244 (decode_fastsvc:313) INFO: processing SM_30004
-[decode]:  56%|█████▋    | 27/48 [00:01<00:00, 24.30it/s, RTF=0.003]  2023-02-11 03:08:11,290 (decode_fastsvc:313) INFO: processing SM_30005
-[decode]:  56%|█████▋    | 27/48 [00:01<00:00, 24.30it/s, RTF=0.00298]2023-02-11 03:08:11,334 (decode_fastsvc:313) INFO: processing SM_30006
-[decode]:  56%|█████▋    | 27/48 [00:01<00:00, 24.30it/s, RTF=0.0018] [decode]:  62%|██████▎   | 30/48 [00:01<00:00, 23.19it/s, RTF=0.0018]2023-02-11 03:08:11,386 (decode_fastsvc:313) INFO: processing SM_30007
-[decode]:  62%|██████▎   | 30/48 [00:01<00:00, 23.19it/s, RTF=0.00346]2023-02-11 03:08:11,418 (decode_fastsvc:313) INFO: processing SM_30008
-[decode]:  62%|██████▎   | 30/48 [00:01<00:00, 23.19it/s, RTF=0.00421]2023-02-11 03:08:11,449 (decode_fastsvc:313) INFO: processing SM_30009
-[decode]:  62%|██████▎   | 30/48 [00:01<00:00, 23.19it/s, RTF=0.00426][decode]:  69%|██████▉   | 33/48 [00:01<00:00, 24.64it/s, RTF=0.00426]2023-02-11 03:08:11,491 (decode_fastsvc:313) INFO: processing SM_30010
-[decode]:  69%|██████▉   | 33/48 [00:01<00:00, 24.64it/s, RTF=0.0058] 2023-02-11 03:08:11,527 (decode_fastsvc:313) INFO: processing SM_30011
-[decode]:  69%|██████▉   | 33/48 [00:01<00:00, 24.64it/s, RTF=0.00505]2023-02-11 03:08:11,567 (decode_fastsvc:313) INFO: processing SM_30012
-[decode]:  69%|██████▉   | 33/48 [00:01<00:00, 24.64it/s, RTF=0.00545][decode]:  75%|███████▌  | 36/48 [00:01<00:00, 25.11it/s, RTF=0.00545]2023-02-11 03:08:11,607 (decode_fastsvc:313) INFO: processing SM_30013
-[decode]:  75%|███████▌  | 36/48 [00:01<00:00, 25.11it/s, RTF=0.00307]2023-02-11 03:08:11,646 (decode_fastsvc:313) INFO: processing SM_30014
-[decode]:  75%|███████▌  | 36/48 [00:01<00:00, 25.11it/s, RTF=0.00311]2023-02-11 03:08:11,691 (decode_fastsvc:313) INFO: processing SM_30015
-[decode]:  75%|███████▌  | 36/48 [00:01<00:00, 25.11it/s, RTF=0.00316][decode]:  81%|████████▏ | 39/48 [00:01<00:00, 24.38it/s, RTF=0.00316]2023-02-11 03:08:11,738 (decode_fastsvc:313) INFO: processing SM_30016
-[decode]:  81%|████████▏ | 39/48 [00:01<00:00, 24.38it/s, RTF=0.00267]2023-02-11 03:08:11,781 (decode_fastsvc:313) INFO: processing SM_30017
-[decode]:  81%|████████▏ | 39/48 [00:01<00:00, 24.38it/s, RTF=0.00283]2023-02-11 03:08:11,828 (decode_fastsvc:313) INFO: processing SM_30018
-[decode]:  81%|████████▏ | 39/48 [00:01<00:00, 24.38it/s, RTF=0.00362][decode]:  88%|████████▊ | 42/48 [00:01<00:00, 23.50it/s, RTF=0.00362]2023-02-11 03:08:11,876 (decode_fastsvc:313) INFO: processing SM_30019
-[decode]:  88%|████████▊ | 42/48 [00:01<00:00, 23.50it/s, RTF=0.0031] 2023-02-11 03:08:11,918 (decode_fastsvc:313) INFO: processing SM_30020
-[decode]:  88%|████████▊ | 42/48 [00:01<00:00, 23.50it/s, RTF=0.00286]2023-02-11 03:08:11,966 (decode_fastsvc:313) INFO: processing SM_30021
-[decode]:  88%|████████▊ | 42/48 [00:01<00:00, 23.50it/s, RTF=0.00325][decode]:  94%|█████████▍| 45/48 [00:01<00:00, 23.30it/s, RTF=0.00325]2023-02-11 03:08:12,007 (decode_fastsvc:313) INFO: processing SM_30022
-[decode]:  94%|█████████▍| 45/48 [00:01<00:00, 23.30it/s, RTF=0.00711]2023-02-11 03:08:12,053 (decode_fastsvc:313) INFO: processing SM_30023
-[decode]:  94%|█████████▍| 45/48 [00:01<00:00, 23.30it/s, RTF=0.00229]2023-02-11 03:08:12,100 (decode_fastsvc:313) INFO: processing SM_30024
-[decode]:  94%|█████████▍| 45/48 [00:01<00:00, 23.30it/s, RTF=0.00251][decode]: 100%|██████████| 48/48 [00:02<00:00, 22.35it/s, RTF=0.00251][decode]: 100%|██████████| 48/48 [00:02<00:00, 23.88it/s, RTF=0.00251]
-2023-02-11 03:08:12,143 (decode_fastsvc:296) INFO: converting source to speaker IDM
-2023-02-11 03:08:12,146 (decode_fastsvc:301) INFO: <class 'numpy.ndarray'>
-[decode]:   0%|          | 0/48 [00:00<?, ?it/s]2023-02-11 03:08:12,158 (decode_fastsvc:313) INFO: processing SF_30001
-[decode]:   0%|          | 0/48 [00:00<?, ?it/s, RTF=0.00347]2023-02-11 03:08:12,197 (decode_fastsvc:313) INFO: processing SF_30002
-[decode]:   0%|          | 0/48 [00:00<?, ?it/s, RTF=0.00316]2023-02-11 03:08:12,238 (decode_fastsvc:313) INFO: processing SF_30003
-[decode]:   0%|          | 0/48 [00:00<?, ?it/s, RTF=0.00402][decode]:   6%|▋         | 3/48 [00:00<00:01, 25.99it/s, RTF=0.00402]2023-02-11 03:08:12,274 (decode_fastsvc:313) INFO: processing SF_30004
-[decode]:   6%|▋         | 3/48 [00:00<00:01, 25.99it/s, RTF=0.00269]2023-02-11 03:08:12,316 (decode_fastsvc:313) INFO: processing SF_30005
-[decode]:   6%|▋         | 3/48 [00:00<00:01, 25.99it/s, RTF=0.00308]2023-02-11 03:08:12,360 (decode_fastsvc:313) INFO: processing SF_30006
-[decode]:   6%|▋         | 3/48 [00:00<00:01, 25.99it/s, RTF=0.00161][decode]:  12%|█▎        | 6/48 [00:00<00:01, 22.76it/s, RTF=0.00161]2023-02-11 03:08:12,416 (decode_fastsvc:313) INFO: processing SF_30007
-[decode]:  12%|█▎        | 6/48 [00:00<00:01, 22.76it/s, RTF=0.00335]2023-02-11 03:08:12,450 (decode_fastsvc:313) INFO: processing SF_30008
-[decode]:  12%|█▎        | 6/48 [00:00<00:01, 22.76it/s, RTF=0.00497]2023-02-11 03:08:12,490 (decode_fastsvc:313) INFO: processing SF_30009
-[decode]:  12%|█▎        | 6/48 [00:00<00:01, 22.76it/s, RTF=0.00433][decode]:  19%|█▉        | 9/48 [00:00<00:01, 24.62it/s, RTF=0.00433]2023-02-11 03:08:12,527 (decode_fastsvc:313) INFO: processing SF_30010
-[decode]:  19%|█▉        | 9/48 [00:00<00:01, 24.62it/s, RTF=0.0106] 2023-02-11 03:08:12,585 (decode_fastsvc:313) INFO: processing SF_30011
-[decode]:  19%|█▉        | 9/48 [00:00<00:01, 24.62it/s, RTF=0.00439]2023-02-11 03:08:12,620 (decode_fastsvc:313) INFO: processing SF_30012
-[decode]:  19%|█▉        | 9/48 [00:00<00:01, 24.62it/s, RTF=0.00467][decode]:  25%|██▌       | 12/48 [00:00<00:01, 24.19it/s, RTF=0.00467]2023-02-11 03:08:12,654 (decode_fastsvc:313) INFO: processing SF_30013
-[decode]:  25%|██▌       | 12/48 [00:00<00:01, 24.19it/s, RTF=0.00271]2023-02-11 03:08:12,689 (decode_fastsvc:313) INFO: processing SF_30014
-[decode]:  25%|██▌       | 12/48 [00:00<00:01, 24.19it/s, RTF=0.00332]2023-02-11 03:08:12,725 (decode_fastsvc:313) INFO: processing SF_30015
-[decode]:  25%|██▌       | 12/48 [00:00<00:01, 24.19it/s, RTF=0.00302][decode]:  31%|███▏      | 15/48 [00:00<00:01, 24.98it/s, RTF=0.00302]2023-02-11 03:08:12,768 (decode_fastsvc:313) INFO: processing SF_30016
-[decode]:  31%|███▏      | 15/48 [00:00<00:01, 24.98it/s, RTF=0.00269]2023-02-11 03:08:12,808 (decode_fastsvc:313) INFO: processing SF_30017
-[decode]:  31%|███▏      | 15/48 [00:00<00:01, 24.98it/s, RTF=0.0029] 2023-02-11 03:08:12,847 (decode_fastsvc:313) INFO: processing SF_30018
-[decode]:  31%|███▏      | 15/48 [00:00<00:01, 24.98it/s, RTF=0.0035][decode]:  38%|███▊      | 18/48 [00:00<00:01, 25.14it/s, RTF=0.0035]2023-02-11 03:08:12,885 (decode_fastsvc:313) INFO: processing SF_30019
-[decode]:  38%|███▊      | 18/48 [00:00<00:01, 25.14it/s, RTF=0.00315]2023-02-11 03:08:12,924 (decode_fastsvc:313) INFO: processing SF_30020
-[decode]:  38%|███▊      | 18/48 [00:00<00:01, 25.14it/s, RTF=0.00295]2023-02-11 03:08:12,966 (decode_fastsvc:313) INFO: processing SF_30021
-[decode]:  38%|███▊      | 18/48 [00:00<00:01, 25.14it/s, RTF=0.00297][decode]:  44%|████▍     | 21/48 [00:00<00:01, 25.16it/s, RTF=0.00297]2023-02-11 03:08:13,004 (decode_fastsvc:313) INFO: processing SF_30022
-[decode]:  44%|████▍     | 21/48 [00:00<00:01, 25.16it/s, RTF=0.00473]2023-02-11 03:08:13,042 (decode_fastsvc:313) INFO: processing SF_30023
-[decode]:  44%|████▍     | 21/48 [00:00<00:01, 25.16it/s, RTF=0.00239]2023-02-11 03:08:13,092 (decode_fastsvc:313) INFO: processing SF_30024
-[decode]:  44%|████▍     | 21/48 [00:00<00:01, 25.16it/s, RTF=0.00248][decode]:  50%|█████     | 24/48 [00:00<00:00, 24.45it/s, RTF=0.00248]2023-02-11 03:08:13,134 (decode_fastsvc:313) INFO: processing SM_30001
-[decode]:  50%|█████     | 24/48 [00:01<00:00, 24.45it/s, RTF=0.00351]2023-02-11 03:08:13,173 (decode_fastsvc:313) INFO: processing SM_30002
-[decode]:  50%|█████     | 24/48 [00:01<00:00, 24.45it/s, RTF=0.00357]2023-02-11 03:08:13,209 (decode_fastsvc:313) INFO: processing SM_30003
-[decode]:  50%|█████     | 24/48 [00:01<00:00, 24.45it/s, RTF=0.00435][decode]:  56%|█████▋    | 27/48 [00:01<00:00, 25.10it/s, RTF=0.00435]2023-02-11 03:08:13,247 (decode_fastsvc:313) INFO: processing SM_30004
-[decode]:  56%|█████▋    | 27/48 [00:01<00:00, 25.10it/s, RTF=0.00271]2023-02-11 03:08:13,296 (decode_fastsvc:313) INFO: processing SM_30005
-[decode]:  56%|█████▋    | 27/48 [00:01<00:00, 25.10it/s, RTF=0.0032] 2023-02-11 03:08:13,344 (decode_fastsvc:313) INFO: processing SM_30006
-[decode]:  56%|█████▋    | 27/48 [00:01<00:00, 25.10it/s, RTF=0.00193][decode]:  62%|██████▎   | 30/48 [00:01<00:00, 23.29it/s, RTF=0.00193]2023-02-11 03:08:13,396 (decode_fastsvc:313) INFO: processing SM_30007
-[decode]:  62%|██████▎   | 30/48 [00:01<00:00, 23.29it/s, RTF=0.00344]2023-02-11 03:08:13,430 (decode_fastsvc:313) INFO: processing SM_30008
-[decode]:  62%|██████▎   | 30/48 [00:01<00:00, 23.29it/s, RTF=0.00449]2023-02-11 03:08:13,463 (decode_fastsvc:313) INFO: processing SM_30009
-[decode]:  62%|██████▎   | 30/48 [00:01<00:00, 23.29it/s, RTF=0.00407][decode]:  69%|██████▉   | 33/48 [00:01<00:00, 24.69it/s, RTF=0.00407]2023-02-11 03:08:13,500 (decode_fastsvc:313) INFO: processing SM_30010
-[decode]:  69%|██████▉   | 33/48 [00:01<00:00, 24.69it/s, RTF=0.00495]2023-02-11 03:08:13,532 (decode_fastsvc:313) INFO: processing SM_30011
-[decode]:  69%|██████▉   | 33/48 [00:01<00:00, 24.69it/s, RTF=0.00446]2023-02-11 03:08:13,564 (decode_fastsvc:313) INFO: processing SM_30012
-[decode]:  69%|██████▉   | 33/48 [00:01<00:00, 24.69it/s, RTF=0.00461]2023-02-11 03:08:13,598 (decode_fastsvc:313) INFO: processing SM_30013
-[decode]:  69%|██████▉   | 33/48 [00:01<00:00, 24.69it/s, RTF=0.00273][decode]:  77%|███████▋  | 37/48 [00:01<00:00, 26.21it/s, RTF=0.00273]2023-02-11 03:08:13,639 (decode_fastsvc:313) INFO: processing SM_30014
-[decode]:  77%|███████▋  | 37/48 [00:01<00:00, 26.21it/s, RTF=0.00337]2023-02-11 03:08:13,674 (decode_fastsvc:313) INFO: processing SM_30015
-[decode]:  77%|███████▋  | 37/48 [00:01<00:00, 26.21it/s, RTF=0.00257]2023-02-11 03:08:13,715 (decode_fastsvc:313) INFO: processing SM_30016
-[decode]:  77%|███████▋  | 37/48 [00:01<00:00, 26.21it/s, RTF=0.00273][decode]:  83%|████████▎ | 40/48 [00:01<00:00, 26.13it/s, RTF=0.00273]2023-02-11 03:08:13,754 (decode_fastsvc:313) INFO: processing SM_30017
-[decode]:  83%|████████▎ | 40/48 [00:01<00:00, 26.13it/s, RTF=0.00279]2023-02-11 03:08:13,792 (decode_fastsvc:313) INFO: processing SM_30018
-[decode]:  83%|████████▎ | 40/48 [00:01<00:00, 26.13it/s, RTF=0.00318]2023-02-11 03:08:13,826 (decode_fastsvc:313) INFO: processing SM_30019
-[decode]:  83%|████████▎ | 40/48 [00:01<00:00, 26.13it/s, RTF=0.0028] [decode]:  90%|████████▉ | 43/48 [00:01<00:00, 26.66it/s, RTF=0.0028]2023-02-11 03:08:13,861 (decode_fastsvc:313) INFO: processing SM_30020
-[decode]:  90%|████████▉ | 43/48 [00:01<00:00, 26.66it/s, RTF=0.00289]2023-02-11 03:08:13,900 (decode_fastsvc:313) INFO: processing SM_30021
-[decode]:  90%|████████▉ | 43/48 [00:01<00:00, 26.66it/s, RTF=0.00297]2023-02-11 03:08:13,941 (decode_fastsvc:313) INFO: processing SM_30022
-[decode]:  90%|████████▉ | 43/48 [00:01<00:00, 26.66it/s, RTF=0.00489][decode]:  96%|█████████▌| 46/48 [00:01<00:00, 26.37it/s, RTF=0.00489]2023-02-11 03:08:13,978 (decode_fastsvc:313) INFO: processing SM_30023
-[decode]:  96%|█████████▌| 46/48 [00:01<00:00, 26.37it/s, RTF=0.00218]2023-02-11 03:08:14,023 (decode_fastsvc:313) INFO: processing SM_30024
-[decode]:  96%|█████████▌| 46/48 [00:01<00:00, 26.37it/s, RTF=0.00257][decode]: 100%|██████████| 48/48 [00:01<00:00, 25.19it/s, RTF=0.00257]
-2023-02-11 03:08:14,054 (decode_fastsvc:296) INFO: converting source to speaker IDF
-2023-02-11 03:08:14,056 (decode_fastsvc:301) INFO: <class 'numpy.ndarray'>
-[decode]:   0%|          | 0/48 [00:00<?, ?it/s]2023-02-11 03:08:14,067 (decode_fastsvc:313) INFO: processing SF_30001
-[decode]:   0%|          | 0/48 [00:00<?, ?it/s, RTF=0.00353]2023-02-11 03:08:14,101 (decode_fastsvc:313) INFO: processing SF_30002
-[decode]:   0%|          | 0/48 [00:00<?, ?it/s, RTF=0.00305]2023-02-11 03:08:14,134 (decode_fastsvc:313) INFO: processing SF_30003
-[decode]:   0%|          | 0/48 [00:00<?, ?it/s, RTF=0.0042] [decode]:   6%|▋         | 3/48 [00:00<00:01, 29.89it/s, RTF=0.0042]2023-02-11 03:08:14,170 (decode_fastsvc:313) INFO: processing SF_30004
-[decode]:   6%|▋         | 3/48 [00:00<00:01, 29.89it/s, RTF=0.00253]2023-02-11 03:08:14,215 (decode_fastsvc:313) INFO: processing SF_30005
-[decode]:   6%|▋         | 3/48 [00:00<00:01, 29.89it/s, RTF=0.00319]2023-02-11 03:08:14,257 (decode_fastsvc:313) INFO: processing SF_30006
-[decode]:   6%|▋         | 3/48 [00:00<00:01, 29.89it/s, RTF=0.00169][decode]:  12%|█▎        | 6/48 [00:00<00:01, 23.91it/s, RTF=0.00169]2023-02-11 03:08:14,312 (decode_fastsvc:313) INFO: processing SF_30007
-[decode]:  12%|█▎        | 6/48 [00:00<00:01, 23.91it/s, RTF=0.00354]2023-02-11 03:08:14,350 (decode_fastsvc:313) INFO: processing SF_30008
-[decode]:  12%|█▎        | 6/48 [00:00<00:01, 23.91it/s, RTF=0.00481]2023-02-11 03:08:14,384 (decode_fastsvc:313) INFO: processing SF_30009
-[decode]:  12%|█▎        | 6/48 [00:00<00:01, 23.91it/s, RTF=0.00469][decode]:  19%|█▉        | 9/48 [00:00<00:01, 25.59it/s, RTF=0.00469]2023-02-11 03:08:14,419 (decode_fastsvc:313) INFO: processing SF_30010
-[decode]:  19%|█▉        | 9/48 [00:00<00:01, 25.59it/s, RTF=0.00456]2023-02-11 03:08:14,451 (decode_fastsvc:313) INFO: processing SF_30011
-[decode]:  19%|█▉        | 9/48 [00:00<00:01, 25.59it/s, RTF=0.00431]2023-02-11 03:08:14,483 (decode_fastsvc:313) INFO: processing SF_30012
-[decode]:  19%|█▉        | 9/48 [00:00<00:01, 25.59it/s, RTF=0.00484]2023-02-11 03:08:14,520 (decode_fastsvc:313) INFO: processing SF_30013
-[decode]:  19%|█▉        | 9/48 [00:00<00:01, 25.59it/s, RTF=0.00274][decode]:  27%|██▋       | 13/48 [00:00<00:01, 26.70it/s, RTF=0.00274]2023-02-11 03:08:14,562 (decode_fastsvc:313) INFO: processing SF_30014
-[decode]:  27%|██▋       | 13/48 [00:00<00:01, 26.70it/s, RTF=0.00309]2023-02-11 03:08:14,603 (decode_fastsvc:313) INFO: processing SF_30015
-[decode]:  27%|██▋       | 13/48 [00:00<00:01, 26.70it/s, RTF=0.00294]2023-02-11 03:08:14,650 (decode_fastsvc:313) INFO: processing SF_30016
-[decode]:  27%|██▋       | 13/48 [00:00<00:01, 26.70it/s, RTF=0.0027] [decode]:  33%|███▎      | 16/48 [00:00<00:01, 25.39it/s, RTF=0.0027]2023-02-11 03:08:14,692 (decode_fastsvc:313) INFO: processing SF_30017
-[decode]:  33%|███▎      | 16/48 [00:00<00:01, 25.39it/s, RTF=0.00302]2023-02-11 03:08:14,731 (decode_fastsvc:313) INFO: processing SF_30018
-[decode]:  33%|███▎      | 16/48 [00:00<00:01, 25.39it/s, RTF=0.00353]2023-02-11 03:08:14,770 (decode_fastsvc:313) INFO: processing SF_30019
-[decode]:  33%|███▎      | 16/48 [00:00<00:01, 25.39it/s, RTF=0.00313][decode]:  40%|███▉      | 19/48 [00:00<00:01, 25.40it/s, RTF=0.00313]2023-02-11 03:08:14,811 (decode_fastsvc:313) INFO: processing SF_30020
-[decode]:  40%|███▉      | 19/48 [00:00<00:01, 25.40it/s, RTF=0.00294]2023-02-11 03:08:14,858 (decode_fastsvc:313) INFO: processing SF_30021
-[decode]:  40%|███▉      | 19/48 [00:00<00:01, 25.40it/s, RTF=0.00298]2023-02-11 03:08:14,905 (decode_fastsvc:313) INFO: processing SF_30022
-[decode]:  40%|███▉      | 19/48 [00:00<00:01, 25.40it/s, RTF=0.00465][decode]:  46%|████▌     | 22/48 [00:00<00:01, 24.41it/s, RTF=0.00465]2023-02-11 03:08:14,944 (decode_fastsvc:313) INFO: processing SF_30023
-[decode]:  46%|████▌     | 22/48 [00:00<00:01, 24.41it/s, RTF=0.00234]2023-02-11 03:08:14,993 (decode_fastsvc:313) INFO: processing SF_30024
-[decode]:  46%|████▌     | 22/48 [00:00<00:01, 24.41it/s, RTF=0.00262]2023-02-11 03:08:15,035 (decode_fastsvc:313) INFO: processing SM_30001
-[decode]:  46%|████▌     | 22/48 [00:00<00:01, 24.41it/s, RTF=0.00365][decode]:  52%|█████▏    | 25/48 [00:01<00:00, 24.08it/s, RTF=0.00365]2023-02-11 03:08:15,072 (decode_fastsvc:313) INFO: processing SM_30002
-[decode]:  52%|█████▏    | 25/48 [00:01<00:00, 24.08it/s, RTF=0.00365]2023-02-11 03:08:15,107 (decode_fastsvc:313) INFO: processing SM_30003
-[decode]:  52%|█████▏    | 25/48 [00:01<00:00, 24.08it/s, RTF=0.00431]2023-02-11 03:08:15,141 (decode_fastsvc:313) INFO: processing SM_30004
-[decode]:  52%|█████▏    | 25/48 [00:01<00:00, 24.08it/s, RTF=0.00272][decode]:  58%|█████▊    | 28/48 [00:01<00:00, 24.52it/s, RTF=0.00272]2023-02-11 03:08:15,189 (decode_fastsvc:313) INFO: processing SM_30005
-[decode]:  58%|█████▊    | 28/48 [00:01<00:00, 24.52it/s, RTF=0.00318]2023-02-11 03:08:15,236 (decode_fastsvc:313) INFO: processing SM_30006
-[decode]:  58%|█████▊    | 28/48 [00:01<00:00, 24.52it/s, RTF=0.00174]2023-02-11 03:08:15,295 (decode_fastsvc:313) INFO: processing SM_30007
-[decode]:  58%|█████▊    | 28/48 [00:01<00:00, 24.52it/s, RTF=0.00357][decode]:  65%|██████▍   | 31/48 [00:01<00:00, 23.47it/s, RTF=0.00357]2023-02-11 03:08:15,328 (decode_fastsvc:313) INFO: processing SM_30008
-[decode]:  65%|██████▍   | 31/48 [00:01<00:00, 23.47it/s, RTF=0.00447]2023-02-11 03:08:15,360 (decode_fastsvc:313) INFO: processing SM_30009
-[decode]:  65%|██████▍   | 31/48 [00:01<00:00, 23.47it/s, RTF=0.00386]2023-02-11 03:08:15,408 (decode_fastsvc:313) INFO: processing SM_30010
-[decode]:  65%|██████▍   | 31/48 [00:01<00:00, 23.47it/s, RTF=0.00512][decode]:  71%|███████   | 34/48 [00:01<00:00, 24.25it/s, RTF=0.00512]2023-02-11 03:08:15,442 (decode_fastsvc:313) INFO: processing SM_30011
-[decode]:  71%|███████   | 34/48 [00:01<00:00, 24.25it/s, RTF=0.00439]2023-02-11 03:08:15,475 (decode_fastsvc:313) INFO: processing SM_30012
-[decode]:  71%|███████   | 34/48 [00:01<00:00, 24.25it/s, RTF=0.00541]2023-02-11 03:08:15,512 (decode_fastsvc:313) INFO: processing SM_30013
-[decode]:  71%|███████   | 34/48 [00:01<00:00, 24.25it/s, RTF=0.00401][decode]:  77%|███████▋  | 37/48 [00:01<00:00, 24.51it/s, RTF=0.00401]2023-02-11 03:08:15,562 (decode_fastsvc:313) INFO: processing SM_30014
-[decode]:  77%|███████▋  | 37/48 [00:01<00:00, 24.51it/s, RTF=0.0033] 2023-02-11 03:08:15,600 (decode_fastsvc:313) INFO: processing SM_30015
-[decode]:  77%|███████▋  | 37/48 [00:01<00:00, 24.51it/s, RTF=0.00286]2023-02-11 03:08:15,642 (decode_fastsvc:313) INFO: processing SM_30016
-[decode]:  77%|███████▋  | 37/48 [00:01<00:00, 24.51it/s, RTF=0.00271][decode]:  83%|████████▎ | 40/48 [00:01<00:00, 24.24it/s, RTF=0.00271]2023-02-11 03:08:15,689 (decode_fastsvc:313) INFO: processing SM_30017
-[decode]:  83%|████████▎ | 40/48 [00:01<00:00, 24.24it/s, RTF=0.00277]2023-02-11 03:08:15,729 (decode_fastsvc:313) INFO: processing SM_30018
-[decode]:  83%|████████▎ | 40/48 [00:01<00:00, 24.24it/s, RTF=0.00321]2023-02-11 03:08:15,768 (decode_fastsvc:313) INFO: processing SM_30019
-[decode]:  83%|████████▎ | 40/48 [00:01<00:00, 24.24it/s, RTF=0.00294][decode]:  90%|████████▉ | 43/48 [00:01<00:00, 24.35it/s, RTF=0.00294]2023-02-11 03:08:15,811 (decode_fastsvc:313) INFO: processing SM_30020
-[decode]:  90%|████████▉ | 43/48 [00:01<00:00, 24.35it/s, RTF=0.00288]2023-02-11 03:08:15,858 (decode_fastsvc:313) INFO: processing SM_30021
-[decode]:  90%|████████▉ | 43/48 [00:01<00:00, 24.35it/s, RTF=0.0029] 2023-02-11 03:08:15,894 (decode_fastsvc:313) INFO: processing SM_30022
-[decode]:  90%|████████▉ | 43/48 [00:01<00:00, 24.35it/s, RTF=0.00519][decode]:  96%|█████████▌| 46/48 [00:01<00:00, 24.60it/s, RTF=0.00519]2023-02-11 03:08:15,931 (decode_fastsvc:313) INFO: processing SM_30023
-[decode]:  96%|█████████▌| 46/48 [00:01<00:00, 24.60it/s, RTF=0.00235]2023-02-11 03:08:15,982 (decode_fastsvc:313) INFO: processing SM_30024
-[decode]:  96%|█████████▌| 46/48 [00:01<00:00, 24.60it/s, RTF=0.00244][decode]: 100%|██████████| 48/48 [00:01<00:00, 24.47it/s, RTF=0.00244]
-2023-02-11 03:08:16,019 (decode_fastsvc:345) INFO: Finished generation of 48 utterances (RTF = 0.021).
-# Accounting: time=15 threads=1
-# Ended (code 0) at 2023年  2月 11日 土曜日 03:08:16 JST, elapsed time 15 seconds

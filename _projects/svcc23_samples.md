@@ -1,6 +1,7 @@
 ---
 layout: projects
 title: SVCC23 Samples
+permalink: /projects/svcc23samples
 ---
 
 <!DOCTYPE html>

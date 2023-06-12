@@ -14,7 +14,7 @@ Prior to this, I received my undergraduate degree from Ateneo de Manila Universi
 
 Some of my hobbies include language learning, where I learned French during my exchange program and am currently studying Japanese. Having this hobby led me to gain an interest in research in speech and languages, so here I am!
 
-You can download my CV [here](https://lesterphillip.github.io/files/CV.pdf).
+You can download my CV [here](https://lesterphillip.github.io/images/CV.pdf).
 
 Updates
 ======

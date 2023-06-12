@@ -18,6 +18,7 @@ You can download my CV [here](https://lesterphillip.github.io/files/CV.pdf).
 
 Updates
 ======
+- Apr 2023: Started my Ph.D. degree at Nagoya University.
 - Feb 2023: First-author [paper](https://arxiv.org/abs/2211.01079) accepted at ICASSP 2023 (Rhodes, Greece). 
 - Jan 2023: I will be co-organizing the Singing Voice Conversion Challenge! More details can be found [here](http://vc-challenge.org/). Please join! 
 - Sep 2022: Co-authored [paper](https://arxiv.org/abs/2210.10314) accepted at SLT 2022 (Doha, Qatar).

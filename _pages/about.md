@@ -1,23 +1,26 @@
 ---
 permalink: /
-title: "Voice research and all that kind of stuff."
-excerpt: "About Me"
+title: "Speech research and all that kind of stuff."
+excerpt: "About me"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-Hi, I'm Lester Violeta, a master's student at Nagoya University, Japan at Toda Laboratory under the supervision of Professor Tomoki Toda. My research focus is mainly on automatic speech recognition and voice conversion using different deep learning frameworks with a particular focus on minimally-resourced datasets. I received the Monbukagakusho Japanese Government Scholarship, a full scholarship that covers my expenses while studying in Japan. My work has been published in S-tier speech conferences such as INTERSPEECH and ICASSP. Moreover, I am also scheduled to take the PhD course next April. I work on AI with the goal of making it more inclusive to everyone.
+Hi, I'm Lester Violeta, a Ph.D. student at Nagoya University, Japan at Toda Laboratory under the supervision of Professor Tomoki Toda. I am also currently a research assistant at Sony Computer Science Laboratories in Tokyo. My research mainly focuses on voice conversion and automatic speech recognition using different deep learning frameworks, focusing on minimally-resourced datasets. I received the Monbukagakusho Japanese Government Scholarship, a full scholarship that covers my expenses while studying in Japan. I work on AI with the goal of making it more inclusive to everyone.
 
-Prior to this, I received my undergraduate degree from Ateneo de Manila University, Philippines. I also have several working experiences in software engineering and machine learning. Moreoever, I was also a research exchange student at Institut Catholique d'Arts et Metiers - Site de Paris-Senart in France where I worked on optimizing renewable energy systems for a semester during my undergraduate degree.
+Prior to this, I received my undergraduate degree from Ateneo de Manila University, Philippines. I also have several working experiences in software engineering and machine learning. Moreover, I was also a research exchange student at Institut Catholique d'Arts et Metiers - Site de Paris-Senart in France where I worked on optimizing renewable energy systems for a semester during my undergraduate degree.
 
 Some of my hobbies include language learning, where I learned French during my exchange program and am currently studying Japanese. Having this hobby led me to gain an interest in research in speech and languages, so here I am!
 
-You can download my CV [here](https://lesterphillip.github.io/images/CV.pdf).
+You can download my CV [here](https://lesterphillip.github.io/images/CV.pdf) or check out my papers in my Google Scholar [here](https://scholar.google.com/citations?user=iN-bKpcAAAAJ&hl=en&authuser=1).
 
 Updates
 ======
+- Oct 2023: Started as a research assistant at Sony CSL in Japan.
+- Sept 2023: Three co-authored papers accepted at ASRU 2023 (Taipei, Taiwan).
+- Aug 2023: First-author [paper](https://arxiv.org/abs/2306.13953) accepted at APSIPA 2023 (Taipei, Taiwan).
 - Apr 2023: Started my Ph.D. degree at Nagoya University.
 - Feb 2023: First-author [paper](https://arxiv.org/abs/2211.01079) accepted at ICASSP 2023 (Rhodes, Greece). 
 - Jan 2023: I will be co-organizing the Singing Voice Conversion Challenge! More details can be found [here](http://vc-challenge.org/). Please join! 

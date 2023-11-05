@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Speech research and all that kind of stuff."
+title: "Read, code, debug, repeat."
 excerpt: "About me"
 author_profile: true
 redirect_from: 

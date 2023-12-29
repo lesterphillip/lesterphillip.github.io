@@ -18,8 +18,9 @@ You can download my CV [here](https://lesterphillip.github.io/images/CV.pdf) or 
 
 Updates
 ======
+- Dec 2023: First-author [paper](https://arxiv.org/abs/2309.09627) accepted at ICASSP 2024 (Seoul, South Korea).
 - Oct 2023: Started as a research assistant at Sony CSL in Japan.
-- Sept 2023: Three co-authored papers accepted at ASRU 2023 (Taipei, Taiwan).
+- Sept 2023: Three co-authored papers accepted at ASRU 2023 (Taipei, Taiwan). Check them out [here](https://arxiv.org/abs/2306.14422), [here](https://arxiv.org/abs/2310.05203), and [here](https://arxiv.org/abs/2310.02570).
 - Aug 2023: First-author [paper](https://arxiv.org/abs/2306.13953) accepted at APSIPA 2023 (Taipei, Taiwan).
 - Apr 2023: Started my Ph.D. degree at Nagoya University.
 - Feb 2023: First-author [paper](https://arxiv.org/abs/2211.01079) accepted at ICASSP 2023 (Rhodes, Greece). 

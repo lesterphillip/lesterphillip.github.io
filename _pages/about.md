@@ -18,16 +18,19 @@ You can download my CV [here](https://lesterphillip.github.io/images/202409CV.pd
 
 Updates
 ======
-- Dec 2023: First-author [paper](https://arxiv.org/abs/2309.09627) accepted at ICASSP 2024 (Seoul, South Korea).
+- May 2024: First-author [journal](https://ieeexplore.ieee.org/abstract/document/10533680) on pretraining and adaptation techniques for electrolaryngeal speech recognition. Accepted at IEEE TASLP/ACM.
+- May 2024: Co-authored [paper](https://arxiv.org/pdf/2406.06208) on speaker verification for pathological speech. Accepted at INTERSPEECH 2024 (Kos, Greece).
+- Feb 2024: Started as an AI Engineer / Researcher in Voice-Swap.AI
+- Dec 2023: First-author [paper](https://arxiv.org/abs/2309.09627) on electrolaryngeal speech intelligibility enhancement. Accepted at ICASSP 2024 (Seoul, South Korea).
 - Oct 2023: Started as a research assistant at Sony CSL in Japan.
-- Sept 2023: Three co-authored papers accepted at ASRU 2023 (Taipei, Taiwan). Check them out [here](https://arxiv.org/abs/2306.14422), [here](https://arxiv.org/abs/2310.05203), and [here](https://arxiv.org/abs/2310.02570).
-- Aug 2023: First-author [paper](https://arxiv.org/abs/2306.13953) accepted at APSIPA 2023 (Taipei, Taiwan).
+- Sept 2023: Three co-authored papers accepted at ASRU 2023 (Taipei, Taiwan). Check them out here: [The Singing Voice Conversion Challenge 2023](https://arxiv.org/abs/2306.14422), [Detailed study on training singing voice conversion systems](https://arxiv.org/abs/2310.05203), and [Healthy to pathological voice conversion using style tokens](https://arxiv.org/abs/2310.02570).
+- Aug 2023: First-author [paper](https://arxiv.org/abs/2306.13953) on speech recognition for deaf and hard-of-hearing speakers. Accepted at APSIPA 2023 (Taipei, Taiwan).
 - Apr 2023: Started my Ph.D. degree at Nagoya University.
-- Feb 2023: First-author [paper](https://arxiv.org/abs/2211.01079) accepted at ICASSP 2023 (Rhodes, Greece). 
+- Feb 2023: First-author [paper](https://arxiv.org/abs/2211.01079) on using data augmentation for electrolaryngeal speech recognition. Accepted at ICASSP 2023 (Rhodes, Greece). 
 - Jan 2023: I will be co-organizing the Singing Voice Conversion Challenge! More details can be found [here](http://vc-challenge.org/). Please join! 
-- Sep 2022: Co-authored [paper](https://arxiv.org/abs/2210.10314) accepted at SLT 2022 (Doha, Qatar).
-- May 2022: First-author [paper](https://arxiv.org/abs/2203.15431) accepted at INTERSPEECH 2022 (Incheon, Korea).
+- Sep 2022: Co-authored [paper](https://arxiv.org/abs/2210.10314) on electrolaryngeal speech intelligibility enhancement. Accepted at SLT 2022 (Doha, Qatar).
+- May 2022: First-author [paper](https://arxiv.org/abs/2203.15431) on analyzing self-supervised speech models for pathological speech recognition. Accepted at INTERSPEECH 2022 (Incheon, Korea).
 - Mar 2022: Accepted as a research intern at NTT Japan.
-- Jan 2022: Co-authored [paper](https://arxiv.org/abs/2110.08213) accepted at ICASSP 2022 (Singapore, Singapore).
+- Jan 2022: Co-authored [paper](https://arxiv.org/abs/2110.08213) on pathological voice conversion. accepted at ICASSP 2022 (Singapore, Singapore).
 - Jan 2022: Accepted as a research intern at Hitachi Ltd.
 - Apr 2021: Started my master's degree at Nagoya University.

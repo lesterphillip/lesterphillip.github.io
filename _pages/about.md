@@ -18,6 +18,7 @@ You can download my CV [here](https://lesterphillip.github.io/images/202409CV.pd
 
 Updates
 ======
+- Oct 2024: I made a demo system with a frontend for my main thesis and a side project, check them out! [Electrolaryngeal Speech Enhancer](https://nutube.nagoya-u.ac.jp/contents/1022) and [Singing Voice Converter](https://nutube.nagoya-u.ac.jp/contents/1023) (in Japanese).
 - May 2024: First-author [journal](https://ieeexplore.ieee.org/abstract/document/10533680) on pretraining and adaptation techniques for electrolaryngeal speech recognition. Accepted at IEEE TASLP/ACM.
 - May 2024: Co-authored [paper](https://arxiv.org/pdf/2406.06208) on speaker verification for pathological speech. Accepted at INTERSPEECH 2024 (Kos, Greece).
 - Feb 2024: Started as an AI Engineer / Researcher in Voice-Swap.AI

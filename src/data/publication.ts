@@ -15,25 +15,71 @@ export const publicationData: Publication[] = [
   // If you don't want to show publications, just make the array empty.
   {
     year: "2024",
-    conference: "NeurIPS",
-    title: "Scalable Causal Discovery in High-Dimensional Time Series",
-    authors: "Jane Smith, Sarah Johnson, Yue Zhang",
-    paperUrl: "https://arxiv.org/abs/2409.15476",
-    codeUrl: "https://github.com/jsmith/scalable-causal-discovery",
+    conference: "ICASSP",
+    title: "Electrolaryngeal Speech Intelligibility Enhancement through Robust Linguistic Encoders",
+    authors: "Lester Phillip Violeta, Wen-Chin Huang, Ding Ma, Ryuichi Yamamoto, Kazuhiro Kobayashi, Tomoki Toda",
+    paperUrl: "https://arxiv.org/pdf/2309.09627",
+    // codeUrl: "https://github.com/jsmith/scalable-causal-discovery",
     //bibtex: "https://arxiv.org/abs/2409.15476.bib",
-    tldr: "Using causal discovery to find the causal structure of high-dimensional time series data.",
+    tldr: "Developed robust linguistic encoder to disentangle speaker information from electrolaryngeal speech.",
     imageUrl:
-      "https://images.unsplash.com/photo-1561622539-dffbfc2008fd?q=80&w=2076&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    award: "🏆 Best Paper Award",
+      "/images/icassp24-el.png",
+    // award: "🏆 Best Paper Award",
     // if you have an image in public/images, you can use it like this:
     // imageUrl: "/images/publication-image.jpg"
   },
   {
-    year: "2023",
-    conference: "ICML",
-    title: "Robust Causal Discovery Under Distribution Shift",
-    authors: "Jane Smith, Xue Chen, Sarah Johnson",
+    year: "2024",
+    conference: "IEEE/ACM TASLP",
+    title: "Pretraining and Adaptation Techniques for Electrolaryngeal Speech Recognition",
+    authors: "Lester Phillip Violeta, Ding Ma, Wen-Chin Huang, Tomoki Toda",
+    paperUrl: "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10533680",
+    imageUrl:
+    "/images/taslp-asr.png",
+  },
+  {
+    year: "2024",
+    conference: "Technical Report",
+    title: "A Preliminary Investigation on Flexible Singing Voice Synthesis Through Decomposed Framework with Inferrable Features",
+    authors: "Lester Phillip Violeta, Taketo Akama",
     paperUrl: "https://arxiv.org/abs/2302.13095",
-    codeUrl: "https://github.com/jsmith/robust-causal-discovery",
+    imageUrl:
+    "/images/svs-techreport.png",
+  },
+  {
+    year: "2023",
+    conference: "ASRU",
+    title: "The Singing Voice Conversion Challenge 2023",
+    authors: "Wen-Chin Huang, Lester Phillip Violeta, Songxiang Liu, Jiatong Shi, Tomoki Toda",
+    paperUrl: "https://arxiv.org/pdf/2306.14422",
+    imageUrl:
+    "/images/asru23-svcc23.png",
+  },
+  {
+    year: "2023",
+    conference: "APSIPA",
+    title: "An Analysis of Personalized Speech Recognition System Development for the Deaf and Hard-of-hearing",
+    authors: "Lester Phillip Violeta, Tomoki Toda",
+    paperUrl: "https://arxiv.org/pdf/2306.13953",
+    imageUrl:
+    "/images/apsipa23-dhh.png",
+  },
+  {
+    year: "2023",
+    conference: "ICASSP",
+    title: "Intermediate Fine-tuning Using Imperfect Synthetic Speech for Improving Electrolaryngeal Speech Recognition",
+    authors: "Lester Phillip Violeta, Ding Ma, Wen-Chin Huang, Tomoki Toda",
+    paperUrl: "https://arxiv.org/pdf/2211.01079",
+    imageUrl:
+    "/images/icassp23-inter.png",
+  },
+  {
+    year: "2022",
+    conference: "Interspeech",
+    title: "Investigating Self-Supervised Pretraining Frameworks for Pathological Speech Recognition",
+    authors: "Lester Phillip Violeta, Wen-Chin Huang, Tomoki Toda",
+    paperUrl: "https://arxiv.org/pdf/2203.15431",
+    imageUrl:
+    "/images/is22-pasr.png",
   },
 ];

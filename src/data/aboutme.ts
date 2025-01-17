@@ -18,22 +18,22 @@ export interface AboutMe {
 }
 
 export const aboutMe: AboutMe = {
-  name: "Jane R. Smith",
+  name: "Lester Phillip Violeta",
   title: "Ph.D. Candidate",
-  institution: "Stanford University",
+  institution: "Nagoya University, Japan",
   // Note that links work in the description
   description:
-    "I'm a final-year <a href='https://www.stanford.edu'>PhD candidate</a> working at the intersection of causal inference and machine learning. My research focuses on developing robust, interpretable systems that can reason about cause and effect in complex environments.",
-  email: "______@stanford.edu",
+    'I am a Ph.D. student at <a href="https://www.toda.is.i.nagoya-u.ac.jp/">Nagoya University, Japan at Toda Laboratory</a> under the supervision of <a href="https://sites.google.com/site/tomokitoda/home_eng">Professor Tomoki Toda</a> through a full scholarship from the Monbukagakusho Japanese Government. My <a href="https://scholar.google.com/citations?user=iN-bKpcAAAAJ&hl">research</a> mainly focuses on speech synthesis, particularly with electrolaryngeal speech data and singing voice data.<br><br>My work has been published in top speech and audio conferences/journals such as Interspeech, ICASSP, ASRU, SLT, and TASLP. I have also been involved in several academic activities, where I was co-organizer of the recent <a href="https://www.vc-challenge.org/">Singing Voice Conversion Challenge</a> in 2023 (and also co-organizing 2025!). I am also part of the peer-review committee for several academic conferences such as SLT, ICASSP, Interspeech, IJCNN, and journals like IEEE JSTSP. <br><br> Aside from research, I also have deep experience in the engineering side, creating custom models and deploying these as products for companies. I am currently a part-time speech synthesis researcher at <a href="https://coefont.cloud/">CoeFont</a>. Previously, I was also a founding AI engineer at <a href="https://www.voice-swap.ai/">VoiceSwap.AI</a> and have also worked on research internships at <a href="https://www.sonycsl.co.jp/category/tokyo/">Sony Computer Science Laboratories Tokyo</a>, <a href="https://www.rd.ntt/e/cs/team_project/media/">NTT Media Intelligence Laboratories</a>, and <a href="https://www.hitachi.com/rd/">Hitachi Ltd</a>. I have extensive experience in both the academic research and engineering sides of AI.  <br><br> I have a deep international experience now studying in Japan, and having done my B.S. in the Philippines and done a research exchange in France. Outside of programming, I like climbing rocks (bouldering) and learning Japanese.',
+  email: "lpgvioleta [at] gmail [dot] com",
   imageUrl:
-    "https://images.unsplash.com/photo-1581481615985-ba4775734a9b?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-  googleScholarUrl: "https://scholar.google.com/citations?user=bWtMl_MAAAAJ",
-  githubUsername: "janesmith",
-  linkedinUsername: "janesmith",
-  twitterUsername: "janesmith",
-  blogUrl: "https://",
-  cvUrl: "https://",
-  institutionUrl: "https://www.stanford.edu",
+    "/images/personal.png",
+  googleScholarUrl: "https://scholar.google.com/citations?user=iN-bKpcAAAAJ&hl",
+  githubUsername: "lesterphillip",
+  linkedinUsername: "lestervioleta",
+  twitterUsername: "lesterphv",
+  // blogUrl: "https://",
+  cvUrl: "https://drive.google.com/file/d/1bfM-srBJYDNctALeEY943RB2jujnjK-p/view?usp=sharing",
+  institutionUrl: "https://www.toda.is.i.nagoya-u.ac.jp/",
   // altName: "",
   // secretDescription: "I like dogs.",
 };

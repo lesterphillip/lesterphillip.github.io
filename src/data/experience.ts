@@ -37,7 +37,7 @@ export const experienceData: Experience[] = [
     companyUrl: "https://www.sonycsl.co.jp/category/tokyo",
   },
   {
-    date: "Mar. 2024",
+    date: "Mar. 2022",
     title: "Research Intern",
     company: "NTT Media Intelligence Laboratories",
     description:

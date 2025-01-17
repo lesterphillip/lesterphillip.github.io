@@ -21,7 +21,7 @@ export const publicationData: Publication[] = [
     paperUrl: "https://arxiv.org/pdf/2309.09627",
     // codeUrl: "https://github.com/jsmith/scalable-causal-discovery",
     //bibtex: "https://arxiv.org/abs/2409.15476.bib",
-    tldr: "Developed robust linguistic encoder to disentangle speaker information from electrolaryngeal speech.",
+    // tldr: "Developed robust linguistic encoder to disentangle speaker information from electrolaryngeal speech.",
     imageUrl:
       "/images/icassp24-el.png",
     // award: "🏆 Best Paper Award",

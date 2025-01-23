@@ -43,12 +43,12 @@ export const experienceData: Experience[] = [
     description:
       "Developed and analyzed speech diarization system using various encoders",
     manager: "Dr. Atsushi Ando",
-    companyUrl: "https://voice-swap.ai",
+    companyUrl: "https://www.rd.ntt/e/cs/team_project/media/",
   },
   {
     date: "Jan. 2022 to Feb. 2022",
     title: "Research Intern",
-    company: "Voice-Swap.AI",
+    company: "Hitachi Ltd.",
     description:
       "Low-resourced speech recognition",
     manager: "Dr. Takashi Sumiyoshi",

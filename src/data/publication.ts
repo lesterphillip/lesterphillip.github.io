@@ -14,6 +14,20 @@ export interface Publication {
 export const publicationData: Publication[] = [
   // If you don't want to show publications, just make the array empty.
   {
+    year: "2025",
+    conference: "Preprint",
+    title: "Serenade: A Singing Style Conversion Framework Based on Audio Infilling",
+    authors: "Lester Phillip Violeta, Wen-Chin Huang, Tomoki Toda",
+    paperUrl: "https://arxiv.org/abs/2503.12388",
+    codeUrl: "https://github.com/lesterphillip/serenade",
+    //bibtex: "https://arxiv.org/abs/2409.15476.bib",
+    imageUrl:
+      "/images/serenade.png",
+    // award: "🏆 Best Paper Award",
+    // if you have an image in public/images, you can use it like this:
+    // imageUrl: "/images/publication-image.jpg"
+  },
+  {
     year: "2024",
     conference: "ICASSP",
     title: "Electrolaryngeal Speech Intelligibility Enhancement through Robust Linguistic Encoders",

@@ -14,9 +14,8 @@ export const experienceData: Experience[] = [
     title: "Researcher",
     company: "CoeFont",
     description:
-      "Part-time, speech synthesis team",
-    // advisor: "Peter Wang",
-    companyUrl: "https://coefont.cloud",
+      "Part-time, voice conversion team",
+    companyUrl: "https://coefont.com",
   },
   {
     date: "Feb. 2024 to Nov. 2024",
@@ -32,7 +31,7 @@ export const experienceData: Experience[] = [
     title: "Research Assistant",
     company: "Sony CSL Tokyo",
     description:
-      "Singing voice synthesis systems",
+      "Research on singing voice synthesis systems",
     manager: "Dr. Taketo Akama",
     companyUrl: "https://www.sonycsl.co.jp/category/tokyo",
   },
@@ -41,7 +40,7 @@ export const experienceData: Experience[] = [
     title: "Research Intern",
     company: "NTT Media Intelligence Laboratories",
     description:
-      "Developed and analyzed speech diarization system using various encoders",
+      "Research on speech diarization systems",
     manager: "Dr. Atsushi Ando",
     companyUrl: "https://www.rd.ntt/e/cs/team_project/media/",
   },
@@ -50,7 +49,7 @@ export const experienceData: Experience[] = [
     title: "Research Intern",
     company: "Hitachi Ltd.",
     description:
-      "Low-resourced speech recognition",
+      "Research on low-resourced speech recognition",
     manager: "Dr. Takashi Sumiyoshi",
     companyUrl: "https://www.hitachi.com/rd/",
   },

@@ -13,9 +13,33 @@ export interface Publication {
 
 export const publicationData: Publication[] = [
   // If you don't want to show publications, just make the array empty.
+    {
+    year: "2026",
+    conference: "Technical Report",
+    title: "日本語音声基盤モデルをスケーリングさせ、TTS性能を見てみる (in Japanese)",
+    authors: "長谷川 直哉, 相田 優希, 廣岡 聖司, 林 春太朗, Lester Phillip Violeta, 大嶽 匡俊",
+    paperUrl: "https://blog.dubguild.com/melte/llm-tts-scaling/",
+    imageUrl:
+      "/images/llmtts-2026.png",
+    // award: "🏆 Best Paper Award",
+    // if you have an image in public/images, you can use it like this:
+    // imageUrl: "/images/publication-image.jpg"
+  },
+    {
+    year: "2026",
+    conference: "ICASSP",
+    title: "The Singing Voice Conversion Challenge 2025: From Singer Identity Conversion To Singing Style Conversion",
+    authors: "Lester Phillip Violeta, Xueyao Zhang, Jiatong Shi, Yusuke Yasuda, Wen-Chin Huang, Zhizheng Wu, Tomoki Toda",
+    paperUrl: "https://arxiv.org/abs/2509.15629",
+    imageUrl:
+      "/images/svcc2026.png",
+    // award: "🏆 Best Paper Award",
+    // if you have an image in public/images, you can use it like this:
+    // imageUrl: "/images/publication-image.jpg"
+  },
   {
     year: "2025",
-    conference: "Preprint",
+    conference: "EUSIPCO",
     title: "Serenade: A Singing Style Conversion Framework Based on Audio Infilling",
     authors: "Lester Phillip Violeta, Wen-Chin Huang, Tomoki Toda",
     paperUrl: "https://arxiv.org/abs/2503.12388",

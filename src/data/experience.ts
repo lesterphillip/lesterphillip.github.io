@@ -9,29 +9,37 @@ export interface Experience {
 }
 
 export const experienceData: Experience[] = [
-  {
-    date: "Nov. 2024 to July 2025",
-    title: "Researcher",
-    company: "CoeFont",
+  /*{
+    date: "Jul. 2025 to Present",
+    title: "Research Scientist",
+    company: "DubGuild",
     description:
-      "Part-time, voice conversion team",
-    companyUrl: "https://coefont.com",
+      "Generative spoken language models",
+    companyUrl: "https://dubguild.com",
   },
   {
-    date: "Feb. 2024 to Nov. 2024",
-    title: "Founding AI Engineer",
+    date: "Feb. 2024 to Present",
+    title: "ML Engineer",
     company: "Voice-Swap.AI",
     description:
-      "Custom singing voice conversion models and speech synthesis for B2B customers",
+      "Part-time, singing voice conversion models",
     //manager: "Elise Brown",
     companyUrl: "https://voice-swap.ai",
+  },
+  {
+    date: "Nov. 2024 to Jul. 2025",
+    title: "Research Engineer",
+    company: "CoeFont",
+    description:
+      "Voice conversion and speech synthesis models",
+    companyUrl: "https://coefont.com",
   },
   {
     date: "Oct. 2023 to Mar. 2024",
     title: "Research Assistant",
     company: "Sony CSL Tokyo",
     description:
-      "Research on singing voice synthesis systems",
+      "Singing voice synthesis models",
     manager: "Dr. Taketo Akama",
     companyUrl: "https://www.sonycsl.co.jp/category/tokyo",
   },
@@ -40,7 +48,7 @@ export const experienceData: Experience[] = [
     title: "Research Intern",
     company: "NTT Media Intelligence Laboratories",
     description:
-      "Research on speech diarization systems",
+      "Speaker diarization models",
     manager: "Dr. Atsushi Ando",
     companyUrl: "https://www.rd.ntt/e/cs/team_project/media/",
   },
@@ -49,8 +57,8 @@ export const experienceData: Experience[] = [
     title: "Research Intern",
     company: "Hitachi Ltd.",
     description:
-      "Research on low-resourced speech recognition",
+      "Speech recognition models",
     manager: "Dr. Takashi Sumiyoshi",
     companyUrl: "https://www.hitachi.com/rd/",
-  },
+  },*/
 ];

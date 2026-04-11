@@ -19,11 +19,11 @@ export interface AboutMe {
 
 export const aboutMe: AboutMe = {
   name: "Lester Phillip Violeta",
-  title: "Researcher",
-  institution: "Nagoya University, Japan",
+  title: "Research Scientist (Speech AI)",
+  institution: "DubGuild, Tokyo, Japan",
   // Note that links work in the description
   description:
-    'I finished my Ph.D. at <a href="https://www.toda.is.i.nagoya-u.ac.jp/">Nagoya University, Japan at Toda Laboratory</a> under the supervision of <a href="https://sites.google.com/site/tomokitoda/home_eng">Professor Tomoki Toda</a> through a full scholarship from the Monbukagakusho Japanese Government. My <a href="https://scholar.google.com/citations?user=iN-bKpcAAAAJ&hl">research</a> mainly focuses on speech synthesis, particularly with electrolaryngeal speech data and singing voice data.<br><br>My work has been published in top speech and audio conferences/journals such as Interspeech, ICASSP, ASRU, SLT, and TASLP. I have also been involved in several academic activities, where I was co-organizer of the recent <a href="https://www.vc-challenge.org/">Singing Voice Conversion Challenge</a> in 2023 (and also co-organizing 2025!). I am also part of the peer-review committee for several academic conferences such as ASRU, SLT, ICASSP, Interspeech, IJCNN, and journals like IEEE JSTSP. <br><br> Aside from research, I also have various experiences in the engineering side, creating custom models and deploying these as products for companies. During my PhD, I have also been involved in several startups such as DubGuild, CoeFont and VoiceSwap.AI and have also worked on research internships at <a href="https://www.sonycsl.co.jp/category/tokyo/">Sony Computer Science Laboratories Tokyo</a>, <a href="https://www.rd.ntt/e/cs/team_project/media/">NTT Media Intelligence Laboratories</a>, and <a href="https://www.hitachi.com/rd/">Hitachi Ltd</a>. Thus, I have extensive experience in both the academic research and engineering sides of AI.  <br><br> I have a deep international background now studying in Japan, and having done my B.S. in the Philippines and done a research exchange in France. Outside of programming, I like bouldering (check out <a href="https://www.instagram.com/lester.iwanoboru/">this page</a>) and learning Japanese.',
+    'I am currently a Research Scientist at <a href="https://www.dubguild.com">DubGuild</a>, where I work on improving generative spoken language models.<br><br> Prior to this, I received my Ph.D. in Computer Science at Nagoya University, Japan at Toda Laboratory under the supervision of Professor Tomoki Toda, where my <a href="https://scholar.google.com/citations?user=iN-bKpcAAAAJ&hl">research</a> mainly focused on speech synthesis, voice conversion, and speech recognition. My Ph.D. work has been published in top speech and audio conferences/journals such as Interspeech, ICASSP, ASRU, SLT, and TASLP. I am also currently part of the peer-review committee for several academic conferences such as ASRU, SLT, ICASSP, Interspeech, IJCNN, and journals like IEEE JSTSP. I was also the main organizer of the <a href="https://www.vc-challenge.org/">Singing Voice Conversion Challenge</a> in 2023 and 2025. <br><br> I have a deep international background now based in Japan, and having done my B.S. in the Philippines and done a research exchange in France. Outside of research, I like bouldering (check out <a href="https://www.instagram.com/lester.vsgravity/">this page</a>) and learning Japanese.',
   email: "lpgvioleta [at] gmail [dot] com",
   imageUrl:
     "/images/personal.png",
@@ -32,8 +32,8 @@ export const aboutMe: AboutMe = {
   linkedinUsername: "lestervioleta",
   twitterUsername: "lesterphv",
   // blogUrl: "https://",
-  cvUrl: "https://drive.google.com/file/d/1bfM-srBJYDNctALeEY943RB2jujnjK-p/view?usp=sharing",
-  institutionUrl: "https://www.toda.is.i.nagoya-u.ac.jp/",
+  // cvUrl: "https://drive.google.com/file/d/1bfM-srBJYDNctALeEY943RB2jujnjK-p/view?usp=sharing",
+  institutionUrl: "https://dubguild.com/",
   // altName: "",
   // secretDescription: "I like dogs.",
 };

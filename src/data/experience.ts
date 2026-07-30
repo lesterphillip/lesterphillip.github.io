@@ -18,7 +18,15 @@ export const experienceData: Experience[] = [
     companyUrl: "https://dubguild.com",
   },
   {
-    date: "Feb. 2024 to Present",
+    date: "Nov. 2024 to Jul. 2025",
+    title: "Research Engineer",
+    company: "CoeFont",
+    description:
+      "Part-time, voice conversion and speech synthesis models",
+    companyUrl: "https://coefont.com",
+  },
+  {
+    date: "Feb. 2024 to Nov. 2024",
     title: "ML Engineer",
     company: "Voice-Swap.AI",
     description:
@@ -27,19 +35,11 @@ export const experienceData: Experience[] = [
     companyUrl: "https://voice-swap.ai",
   },
   {
-    date: "Nov. 2024 to Jul. 2025",
-    title: "Research Engineer",
-    company: "CoeFont",
-    description:
-      "Voice conversion and speech synthesis models",
-    companyUrl: "https://coefont.com",
-  },
-  {
     date: "Oct. 2023 to Mar. 2024",
     title: "Research Assistant",
     company: "Sony CSL Tokyo",
     description:
-      "Singing voice synthesis models",
+      "Part-time, singing voice synthesis models",
     manager: "Dr. Taketo Akama",
     companyUrl: "https://www.sonycsl.co.jp/category/tokyo",
   },

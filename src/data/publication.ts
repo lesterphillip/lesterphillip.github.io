@@ -5,6 +5,7 @@ export interface Publication {
   authors: string;
   paperUrl?: string;
   codeUrl?: string;
+  demoUrl?: string;
   bibtex?: string;
   tldr?: string;
   imageUrl?: string;
@@ -15,8 +16,21 @@ export const publicationData: Publication[] = [
   // If you don't want to show publications, just make the array empty.
     {
     year: "2026",
+    conference: "In Review",
+    title: "An Extensive Analysis of the Singing Voice Conversion Challenge 2025 Evaluation Results",
+    authors: "Lester Phillip Violeta, Xueyao Zhang, Jiatong Shi, Yusuke Yasuda, Wen-Chin Huang, Zhizheng Wu, Tomoki Toda",
+    paperUrl: "https://arxiv.org/abs/2509.15629",
+    demoUrl: "https://lesterphillip.github.io/svcc2025_demo/",
+    imageUrl:
+      "/images/svcc2026.png",
+    // award: "🏆 Best Paper Award",
+    // if you have an image in public/images, you can use it like this:
+    // imageUrl: "/images/publication-image.jpg"
+  },
+    {
+    year: "2026",
     conference: "Technical Report",
-    title: "日本語音声基盤モデルをスケーリングさせ、TTS性能を見てみる (in Japanese)",
+    title: "Scaling Japanese Speech Foundation Models and Examining TTS Performance (in Japanese)",
     authors: "長谷川 直哉, 相田 優希, 廣岡 聖司, 林 春太朗, Lester Phillip Violeta, 大嶽 匡俊",
     paperUrl: "https://blog.dubguild.com/melte/llm-tts-scaling/",
     imageUrl:
@@ -30,7 +44,7 @@ export const publicationData: Publication[] = [
     conference: "ICASSP",
     title: "The Singing Voice Conversion Challenge 2025: From Singer Identity Conversion To Singing Style Conversion",
     authors: "Lester Phillip Violeta, Xueyao Zhang, Jiatong Shi, Yusuke Yasuda, Wen-Chin Huang, Zhizheng Wu, Tomoki Toda",
-    paperUrl: "https://arxiv.org/abs/2509.15629",
+    paperUrl: "https://ieeexplore.ieee.org/document/11464054/",
     imageUrl:
       "/images/svcc2026.png",
     // award: "🏆 Best Paper Award",

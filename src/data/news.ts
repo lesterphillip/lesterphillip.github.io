@@ -9,6 +9,11 @@ export const newsData: News[] = [
   // If you don't want to show news, just make the array empty.
   {
     date: "July 2026",
+    title: "🎯 New blog post: post-training TTS models with reinforcement learning. (in Japanese)",
+    link: "https://blog.dubguild.com/melte/posttrain/",
+  },
+  {
+    date: "July 2026",
     title: "📝 New blog post: pre-training methods for speech LLM. (in Japanese)",
     link: "https://blog.dubguild.com/melte/pretrain/",
   },

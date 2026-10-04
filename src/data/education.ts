@@ -10,33 +10,30 @@ export interface Education {
 export const educationData: Education[] = [
   // If you don't want to show education, just make the array empty.
   {
-    year: "2023—2026",
+    year: "Apr. 2023—Mar. 2026",
     institution: "Nagoya University, Japan",
-    degree: "Ph.D. Computer Science",
+    degree: "Ph.D. in Informatics",
     advisor: "Prof. Tomoki Toda",
-    thesis: "Speech Synthesis, Voice Conversion",
+    thesis:
+      "Domain Adaptation Techniques for Electrolaryngeal Speech Recognition and Enhancement",
   },
   {
-    year: "2021—2023",
+    year: "Apr. 2021—Mar. 2023",
     institution: "Nagoya University, Japan",
-    degree: "M.S. Computer Science",
+    degree: "M.S. in Informatics",
     advisor: "Prof. Tomoki Toda",
-    thesis: "Speech Recognition",
+    thesis:
+      "Pretraining and Adaptation Techniques for Pathological Speech Recognition",
   },
   {
     year: "2015—2020",
     institution: "Ateneo de Manila University, Philippines",
     degree: "B.S. Electronics Engineering",
-    thesis: "Renewable Energy, Microgrid Optimization",
-    // Optional links to thesis
-    // thesisUrl: "https://dspace.mit.edu/handle/1721.1/149111"
   },
   {
-    year: "2019",
-    institution: "Institut Catholique d'Arts et Metiers Paris, France",
+    year: "Aug. 2019—Feb. 2020",
+    institution:
+      "Institut catholique d'arts et métiers — Site de Paris-Sénart, France",
     degree: "Research Exchange Semester",
-    thesis: "Renewable Energy, Microgrid Optimization",
-    // Optional links to thesis
-    // thesisUrl: "https://dspace.mit.edu/handle/1721.1/149111"
   },
 ];

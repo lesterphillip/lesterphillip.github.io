@@ -9,12 +9,12 @@ export interface Experience {
 }
 
 export const experienceData: Experience[] = [
-  /*{
+  {
     date: "Jul. 2025 to Present",
     title: "Research Scientist",
     company: "DubGuild",
     description:
-      "Generative spoken language models",
+      "Focused on the training and evaluation of conversational speech LLMs for synthetic dialogue generation, including full-parameter SFT and RL post-training.",
     companyUrl: "https://dubguild.com",
   },
   {
@@ -22,16 +22,15 @@ export const experienceData: Experience[] = [
     title: "Research Engineer",
     company: "CoeFont",
     description:
-      "Part-time, voice conversion and speech synthesis models",
-    companyUrl: "https://coefont.com",
+      "Developed real-time voice conversion models for the CoeFont Voice Changer and trained large-scale emotional TTS models.",
+    companyUrl: "https://coefont.cloud/vc/en",
   },
   {
     date: "Feb. 2024 to Nov. 2024",
     title: "ML Engineer",
     company: "Voice-Swap.AI",
     description:
-      "Part-time, singing voice conversion models",
-    //manager: "Elise Brown",
+      "Developed singing voice conversion models for the Voice-Swap singing studio, used by music-industry clients.",
     companyUrl: "https://voice-swap.ai",
   },
   {
@@ -39,7 +38,7 @@ export const experienceData: Experience[] = [
     title: "Research Assistant",
     company: "Sony CSL Tokyo",
     description:
-      "Part-time, singing voice synthesis models",
+      "Researched highly controllable, low-resource singing voice synthesis.",
     manager: "Dr. Taketo Akama",
     companyUrl: "https://www.sonycsl.co.jp/category/tokyo",
   },
@@ -48,7 +47,7 @@ export const experienceData: Experience[] = [
     title: "Research Intern",
     company: "NTT Media Intelligence Laboratories",
     description:
-      "Speaker diarization models",
+      "Developed and analyzed speaker diarization systems using various encoders.",
     manager: "Dr. Atsushi Ando",
     companyUrl: "https://www.rd.ntt/e/cs/team_project/media/",
   },
@@ -57,8 +56,8 @@ export const experienceData: Experience[] = [
     title: "Research Intern",
     company: "Hitachi Ltd.",
     description:
-      "Speech recognition models",
+      "Developed speech recognition systems for low-resource datasets.",
     manager: "Dr. Takashi Sumiyoshi",
     companyUrl: "https://www.hitachi.com/rd/",
-  },*/
+  },
 ];

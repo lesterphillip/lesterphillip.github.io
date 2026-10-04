@@ -10,6 +10,16 @@ import { ExperienceEntry } from "@/components/experience-entry";
 import { experienceData } from "@/data/experience";
 import { PortfolioEntry } from "@/components/portfolio-entry";
 import { portfolioData } from "@/data/portfolio";
+import { TechnicalFocusEntry } from "@/components/technical-focus-entry";
+import { technicalFocusData } from "@/data/technical-focus";
+import {
+  AcademicServiceEntry,
+  AwardEntry,
+} from "@/components/academic-service-entry";
+import {
+  academicServiceData,
+  awardData,
+} from "@/data/academic-service";
 import { sectionOrder, Section } from "@/data/section-order";
 
 export default function Home() {
@@ -46,7 +56,7 @@ export default function Home() {
                 case Section.News:
                   return (
                     newsData.length > 0 && (
-                      <section key={sectionName}>
+                      <section key={sectionName} id="news">
                         <h2 className="font-serif text-l mb-12 tracking-wide uppercase">
                           News
                         </h2>
@@ -110,6 +120,48 @@ export default function Home() {
                             />
                           ))}
                         </div>
+                      </section>
+                    )
+                  );
+                case Section.TechnicalFocus:
+                  return (
+                    technicalFocusData.length > 0 && (
+                      <section key={sectionName}>
+                        <h2 className="font-serif text-md mb-12 tracking-wide uppercase">
+                          Technical Focus
+                        </h2>
+                        <div className="space-y-4">
+                          {technicalFocusData.map((focus, index) => (
+                            <TechnicalFocusEntry key={index} focus={focus} />
+                          ))}
+                        </div>
+                      </section>
+                    )
+                  );
+                case Section.AcademicService:
+                  return (
+                    (academicServiceData.length > 0 || awardData.length > 0) && (
+                      <section key={sectionName}>
+                        <h2 className="font-serif text-md mb-12 tracking-wide uppercase">
+                          Academic Service &amp; Awards
+                        </h2>
+                        {academicServiceData.length > 0 && (
+                          <div className="space-y-8">
+                            {academicServiceData.map((service, index) => (
+                              <AcademicServiceEntry
+                                key={index}
+                                service={service}
+                              />
+                            ))}
+                          </div>
+                        )}
+                        {awardData.length > 0 && (
+                          <div className="space-y-4 mt-12 pt-12 border-t border-zinc-200">
+                            {awardData.map((award, index) => (
+                              <AwardEntry key={index} award={award} />
+                            ))}
+                          </div>
+                        )}
                       </section>
                     )
                   );

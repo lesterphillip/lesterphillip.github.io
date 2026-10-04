@@ -66,6 +66,15 @@ export const publicationData: Publication[] = [
     // imageUrl: "/images/publication-image.jpg"
   },
   {
+    year: "2025",
+    conference: "IEEE JSTSP",
+    title:
+      "Resolving Domain Mismatches in Electrolaryngeal Speech Enhancement With Linguistic Intermediates",
+    authors:
+      "Lester Phillip Violeta, Wen-Chin Huang, Ding Ma, Ryuichi Yamamoto, Kazuhiro Kobayashi, Tomoki Toda",
+    imageUrl: "/images/icassp24-el.png",
+  },
+  {
     year: "2024",
     conference: "ICASSP",
     title: "Electrolaryngeal Speech Intelligibility Enhancement through Robust Linguistic Encoders",
